@@ -20,7 +20,6 @@ vscode:
     # Laravel
     - shufo.vscode-blade-formatter
     - amiralizadeh9480.laravel-extra-intellisense
-    - absszero.vscode-laravel-goto
     - onecentlin.laravel5-snippets
 
 ports:
