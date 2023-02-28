@@ -10,7 +10,8 @@ tasks:
     command: |
       ddev start -y
       gp ports await 8080 && gp preview $(gp url 8080)
-# VScode xdebug extension
+
+# VScode extensions
 vscode:
   extensions:
     - GitHub.vscode-pull-request-github
@@ -19,7 +20,6 @@ vscode:
     # Laravel
     - shufo.vscode-blade-formatter
     - amiralizadeh9480.laravel-extra-intellisense
-    - absszero.vscode-laravel-goto
     - onecentlin.laravel5-snippets
 
 ports:
