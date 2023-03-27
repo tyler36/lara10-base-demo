@@ -16,6 +16,9 @@ use_dns_when_possible: true
 composer_version: "2"
 web_environment: []
 nodejs_version: "16"
+hooks:
+  post-start:
+    - exec: .ddev/commands/web/vite-serve
 
 # Key features of ddev's config.yaml:
 
