@@ -11,9 +11,6 @@ additional_fqdns: []
 database:
     type: mariadb
     version: "10.4"
-hooks:
-    post-start:
-        - exec: .ddev/commands/web/vite-serve
 use_dns_when_possible: true
 composer_version: "2"
 web_environment: []
